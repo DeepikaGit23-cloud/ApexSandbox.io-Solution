@@ -6,7 +6,7 @@ List<String> result = getNamesInAscOrder(fullNames);
 result.sort();
 if(result.size()>0){
     for(string printlist:result){
-        
+       return printlist; 
     }
 }
 }
