@@ -1,0 +1,10 @@
+public List<String> getNamesInAscOrder(List<String> accountNames)
+{
+    //code here
+List<String> fullNames = new List<String> { 'Blake Howard', 'Adrienne Copeland'};
+List<String> result = getNamesInAscOrder(fullNames);
+result.sort();
+if(result[0]= 'Adrienne Copeland'&&result[1]='Blake Howard'){
+    return true;
+}
+}
